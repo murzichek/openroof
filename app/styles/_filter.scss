@@ -1,0 +1,39 @@
+.filter {
+  padding: 1rem;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color:#161E35;
+  border-radius: var(--brad-2);
+  box-shadow: var(--box-shadow);
+  border: 2px solid var(--border-color);
+
+  &__select {
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 3em;
+
+    border-radius: var(--brad-1);
+    overflow: hidden;
+    border: 2px solid #9ca8b9;
+    font-weight: 600;
+
+    select {
+      padding: 0 1rem;
+      outline: none;
+      appearance: none;
+      border: 0;
+      flex: 1;
+
+      color: #fff;
+      background-color: #080B26;
+      cursor: pointer;
+    }
+
+    
+  }
+
+}

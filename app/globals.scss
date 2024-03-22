@@ -35,7 +35,7 @@ body {
 .content {
   padding: 2rem;
   width: 100%;
-  height: 95%;
+  height: 100%;
 
   display:flex;
   flex-direction:row-reverse;
@@ -67,7 +67,7 @@ body {
 
 .liked-events {
   flex: 1;
-  padding: 1rem 2rem;
+  padding: 1rem ;
   border-radius: var(--brad-2);
   background-color: var(--events--bg);
   box-shadow: var(--box-shadow);
@@ -75,6 +75,10 @@ body {
 
   color: var(--color--white);
   overflow-y: auto;
+
+  @media screen and (max-width: 895px){
+    
+    height: 100%;}
 
   &__title {
     font-weight: 700;
